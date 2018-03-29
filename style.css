@@ -1,0 +1,571 @@
+body 
+{
+	background-color: white;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin: auto;
+	
+	
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.wrapper 
+{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+
+}
+.col-sm-12
+{
+	width: 100%;
+	padding: 0px;
+}
+.col-sm-4
+{
+	padding: 0px;
+}
+.col-sm-3
+{
+	padding: 0px;
+}
+#entry_header
+{
+	
+	background-image: url("png/background.png");
+	background-size: cover;                    
+    background-repeat: no-repeat;
+    background-position: center; 
+	color: white;
+	position: relative;
+	height: 1280px;
+	width: 100%;
+}
+.main_header
+{
+	font-family: PlayfairDisplay;
+	font-size:7em;
+	padding-top: 200px;
+	padding-bottom: 30px;
+}
+.main_text
+{
+	width: 40%;
+	margin: 0 auto;
+	font-family: Montserrat;
+	fonnt-weight: 300;
+	line-height: 35px;
+}
+
+.flex-container
+{
+	font-family: Montserrat;
+	font-weight: bold;
+	padding: 20px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+	
+nav
+{
+	width: 90%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.6em;
+	
+}	
+.nav_left
+{
+	text-align: left;
+	padding: 60px 100px 60px 0px;
+}
+.circle
+{
+	
+	position: absolute;
+	animation-name: slide;
+	animation-duration: 3s;
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	font-size: 2.5em;
+	border-radius: 50px;
+	border: 3px solid white;
+	
+}
+
+.nav_right
+{
+	text-align: right;
+	font-size: 1.66em;
+	padding: 60px 0px 60px 100px;
+	
+}
+.search
+{
+	font-weight: 300;
+	float: right;
+	padding: 15px;
+}
+.glyphicon:hover
+{
+	animation-name: jello;
+	animation-duration: 3s;
+}
+.menu_bar
+{
+	font-weight: 300;
+	float: right;
+	padding: 15px;
+}
+.nav_center
+{
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	padding: 60px 0 60px 0;
+	font-size: 14px;
+}	
+.menu_option
+{
+	padding: 15px;
+}
+.round_button
+{
+	border-radius: 15px;
+	border: none;
+	width: 150px;
+	padding: 8px 30px;
+	background-color: #da7074;
+	font-family: Montserrat;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	float:left;
+}
+.div_button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	padding: 70px 100px 80px 100px;
+}
+.b_left
+{
+	float: left;
+	width: 20%;
+}
+.b_right
+{
+	float: right;
+	width: 20%;
+}
+.top_l
+{
+	height: 1px;
+	width: 80%;
+	
+}	
+.bottom_l
+{
+	float:right;
+	height: 1px;
+	width: 80%;
+	border-top: 1px solid rgba(218,112,116, 1);
+	margin-right: 0px;
+}
+.top_r
+{
+	height: 1px;
+	width: 80%;
+}	
+.bottom_r
+{
+	height: 1px;
+	width: 80%;
+	border-top: 1px solid rgba(218,112,116, 1);
+    margin-left: 0px;
+}
+.col-sm-6
+{
+	
+	padding: 2px;
+	bottom: 45px;
+}
+
+.border_top
+{
+	height: 190px;
+	border-right: 1px solid rgba(218,112,116, 1);
+}
+.empty_bottom
+{
+	height: 20px;
+}
+.empty_top
+{
+	height: 20px;
+}
+.border_bottom
+{
+	height: 190px;
+	border-left: 1px solid rgba(218,112,116, 1);
+}
+
+
+.play
+{
+	position: absolute;
+	bottom: 45px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	font-size: 70px;
+	border-radius: 50px;
+	border: 1.5px solid rgba(255, 255, 255, 0.8);
+	left: calc(50% - 41px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.play:hover
+{
+	animation-name: jello;
+	animation-duration: 3s;
+}
+.icon
+{
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1.5px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+	justify-content: center;
+	align-items: center;
+
+}
+.diagonal
+{
+	border-left: 1.5px solid rgba(255, 255, 255, 0.8);
+	width: calc(50% + 2px);
+    height: 40.5px;
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+	float:right;
+}
+.row
+{
+	margin: 0px;
+}
+
+
+.bottom_header
+{
+	font-family: Montserrat;
+	margin: 0px;
+	font-weight: 600;
+	font-style: none;
+	padding: 15px;
+	font-style: normal;
+}
+.bottom_header_small
+{
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.first_square
+{
+
+	background-image: url("png/col1.png");
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	height: 500px;
+	color: white;
+}
+.second_square
+{
+	font-family: Georgia;
+	font-style: italic;
+	background-image: url("png/col2.png");
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	height: 500px;
+	color: white;
+
+
+}	
+.third_square
+{
+
+	background-image: url("png/col3.png");
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	height: 500px;
+	color: white;
+	
+	
+}
+.fourth_square
+{
+
+	background-image: url("png/col4.png");
+	background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	height: 500px;
+	color: white;
+	
+}
+.bottom_squares_text
+{
+	padding-top: 350px;
+	padding-bottom: 50px;
+	font-family: Georgia;
+}
+
+
+.bottom_square
+{
+	text-align: left;
+	margin: auto;
+	font-size: 12px;
+	margin: 50px;
+}
+.info
+{
+	paddding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.link_text
+{
+		color: #565656;
+		display:inline-block;
+		padding: 3px;
+		font-style: italic;
+}	
+.info_text
+{
+	font-style: italic;
+	line-height: 25px;
+}
+footer
+{
+	font-family: Georgia;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 42px;
+	padding-bottom: 42px;
+}
+
+@media screen and (max-width: 770px)
+{
+	body
+	{
+		font-size: 15px;
+	}
+	.nav_center
+	{
+		padding: 10px;
+				
+	}
+	.flex-container
+	{
+		 display: flex;
+		flex-direction: column;
+	}
+
+	.main_header
+	{
+		padding :50px;
+	}
+	.main_text
+	{
+		width: 50%
+	}
+	.div_button
+	{
+		padding-top: 0;
+		
+	}
+	.div_button
+	{
+		bottom: 90px;
+	}
+}
+@media screen and (max-width: 500px)
+{
+	.main_header
+	{
+		font-size: 4.5em;
+	}
+	.div_button
+	{
+		bottom: 150px;
+		padding: 0;
+	}
+	.play
+	{
+		margin-top: 40px;
+	}
+}	
+@media screen and (max-width: 1110px)
+{
+	.border_top 
+	{
+		height: 150px;
+		
+	}
+	.border_bottom
+	{
+		height: 150px;
+	}
+}
+@media screen and (max-width: 980px)
+{
+
+	.border_top 
+	{
+		border: 0;
+		border-width: 0;
+	}
+	.border_bottom
+	{
+		border: 0;
+		border-width: 0;
+	}
+}
+@media screen and (max-width: 360px)
+{
+	.main_header
+	{
+		font-size: 3.5em;
+	}
+}
+@keyframes slide
+{
+	from
+	{
+		transform: translate3d(0, -300%, 0);
+		visibility: visible;
+	} 
+	to 
+	{
+		transform: translate3d(0, 0, 0);
+	}	
+}
+
+@keyframes jello {
+  from,
+  11.1%,
+  to {
+    
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+   
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+   
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+   
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+   
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+   
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url('fonts/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  src: url('fonts/fa-regular-400.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url('fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Pe';
+  src: url('fonts/Pe-icon-7-stroke.ttf');
+}
